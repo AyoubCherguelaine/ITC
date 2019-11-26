@@ -87,7 +87,19 @@
       <DependentUpon>FormationEdit.cs</DependentUpon>
     </Compile>
     <Compile Include="Function.cs" />
+    <Compile Include="Membre\MamberGestion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Membre\MamberGestion.Designer.cs">
+      <DependentUpon>MamberGestion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Membre\Membre.cs" />
+    <Compile Include="Membre\Membre1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Membre\Membre1.Designer.cs">
+      <DependentUpon>Membre1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Membre\Membre_memoire.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -113,6 +125,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formation\FormationEdit.resx">
       <DependentUpon>FormationEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Membre\MamberGestion.resx">
+      <DependentUpon>MamberGestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Membre\Membre1.resx">
+      <DependentUpon>Membre1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
