@@ -52,6 +52,7 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Body_\formateur.cs" />
     <Compile Include="Event\Event.cs" />
     <Compile Include="Event\EventEditeur.cs">
       <SubType>UserControl</SubType>
@@ -74,6 +75,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formation\FormationMemoire.cs" />
     <Compile Include="Formation\Formation.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -86,7 +88,9 @@
     <Compile Include="Formation\FormationEdit.Designer.cs">
       <DependentUpon>FormationEdit.cs</DependentUpon>
     </Compile>
-    <Compile Include="Function.cs" />
+    <Compile Include="Formation\Formation_gree.cs" />
+    <Compile Include="FileSetting\Function.cs" />
+    <Compile Include="Body_\MAn.cs" />
     <Compile Include="Membre\MamberGestion.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -101,8 +105,16 @@
       <DependentUpon>Membre1.cs</DependentUpon>
     </Compile>
     <Compile Include="Membre\Membre_memoire.cs" />
+    <Compile Include="Order\Add_Order.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Order\Add_Order.Designer.cs">
+      <DependentUpon>Add_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order_.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FileSetting\Setting.cs" />
     <Compile Include="Team\Team.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -131,6 +143,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Membre\Membre1.resx">
       <DependentUpon>Membre1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order\Add_Order.resx">
+      <DependentUpon>Add_Order.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

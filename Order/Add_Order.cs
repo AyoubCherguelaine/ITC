@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Itc.Membre
+namespace Itc.Order
 {
-    public partial class MamberGestion : UserControl
+    public partial class Add_Order : UserControl
     {
-        public MamberGestion()
+        public Add_Order()
         {
             InitializeComponent();
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-           
         }
     }
 }

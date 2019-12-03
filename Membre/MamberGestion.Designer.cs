@@ -35,9 +35,9 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.Name_M_Selected = new System.Windows.Forms.Label();
-            this.Surname_M_Selected = new System.Windows.Forms.Label();
             this.Dscr_M_Selected = new System.Windows.Forms.Label();
+            this.Surname_M_Selected = new System.Windows.Forms.Label();
+            this.Name_M_Selected = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -49,6 +49,7 @@
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(381, 446);
             this.listBox1.TabIndex = 0;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // panel1
             // 
@@ -72,27 +73,27 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(485, 55);
+            this.button1.Location = new System.Drawing.Point(460, 55);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(198, 46);
+            this.button1.Size = new System.Drawing.Size(223, 46);
             this.button1.TabIndex = 2;
             this.button1.Text = "Select";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(485, 125);
+            this.button2.Location = new System.Drawing.Point(460, 125);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(198, 46);
+            this.button2.Size = new System.Drawing.Size(223, 46);
             this.button2.TabIndex = 3;
             this.button2.Text = "Remove";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(485, 191);
+            this.button3.Location = new System.Drawing.Point(460, 191);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(198, 46);
+            this.button3.Size = new System.Drawing.Size(223, 46);
             this.button3.TabIndex = 4;
             this.button3.Text = "Add";
             this.button3.UseVisualStyleBackColor = true;
@@ -108,15 +109,14 @@
             this.panel2.Size = new System.Drawing.Size(380, 531);
             this.panel2.TabIndex = 5;
             // 
-            // Name_M_Selected
+            // Dscr_M_Selected
             // 
-            this.Name_M_Selected.AutoSize = true;
-            this.Name_M_Selected.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F);
-            this.Name_M_Selected.Location = new System.Drawing.Point(38, 52);
-            this.Name_M_Selected.Name = "Name_M_Selected";
-            this.Name_M_Selected.Size = new System.Drawing.Size(81, 29);
-            this.Name_M_Selected.TabIndex = 0;
-            this.Name_M_Selected.Text = "Name";
+            this.Dscr_M_Selected.AutoSize = true;
+            this.Dscr_M_Selected.Location = new System.Drawing.Point(39, 194);
+            this.Dscr_M_Selected.Name = "Dscr_M_Selected";
+            this.Dscr_M_Selected.Size = new System.Drawing.Size(26, 13);
+            this.Dscr_M_Selected.TabIndex = 2;
+            this.Dscr_M_Selected.Text = "Dsc";
             // 
             // Surname_M_Selected
             // 
@@ -128,14 +128,15 @@
             this.Surname_M_Selected.TabIndex = 1;
             this.Surname_M_Selected.Text = "Surname";
             // 
-            // Dscr_M_Selected
+            // Name_M_Selected
             // 
-            this.Dscr_M_Selected.AutoSize = true;
-            this.Dscr_M_Selected.Location = new System.Drawing.Point(39, 194);
-            this.Dscr_M_Selected.Name = "Dscr_M_Selected";
-            this.Dscr_M_Selected.Size = new System.Drawing.Size(26, 13);
-            this.Dscr_M_Selected.TabIndex = 2;
-            this.Dscr_M_Selected.Text = "Dsc";
+            this.Name_M_Selected.AutoSize = true;
+            this.Name_M_Selected.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F);
+            this.Name_M_Selected.Location = new System.Drawing.Point(38, 52);
+            this.Name_M_Selected.Name = "Name_M_Selected";
+            this.Name_M_Selected.Size = new System.Drawing.Size(81, 29);
+            this.Name_M_Selected.TabIndex = 0;
+            this.Name_M_Selected.Text = "Name";
             // 
             // MamberGestion
             // 

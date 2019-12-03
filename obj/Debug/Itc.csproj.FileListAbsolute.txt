@@ -1,1 +1,16 @@
 c:\users\hp\documents\visual studio 2015\Projects\Itc\Itc\bin\Debug\Itc.exe.config
+C:\Users\hp\documents\visual studio 2015\Projects\Itc\Itc\obj\Debug\Itc.csprojResolveAssemblyReference.cache
+C:\Users\hp\documents\visual studio 2015\Projects\Itc\Itc\obj\Debug\Itc.Event.EventEditeur.resources
+C:\Users\hp\documents\visual studio 2015\Projects\Itc\Itc\obj\Debug\Itc.Event.EventUI.resources
+C:\Users\hp\documents\visual studio 2015\Projects\Itc\Itc\obj\Debug\Itc.Form1.resources
+C:\Users\hp\documents\visual studio 2015\Projects\Itc\Itc\obj\Debug\Itc.Formation.Formation.resources
+C:\Users\hp\documents\visual studio 2015\Projects\Itc\Itc\obj\Debug\Itc.Formation.FormationEdit.resources
+C:\Users\hp\documents\visual studio 2015\Projects\Itc\Itc\obj\Debug\Itc.Membre.MamberGestion.resources
+C:\Users\hp\documents\visual studio 2015\Projects\Itc\Itc\obj\Debug\Itc.Membre.Membre1.resources
+C:\Users\hp\documents\visual studio 2015\Projects\Itc\Itc\obj\Debug\Itc.Team.Team.resources
+C:\Users\hp\documents\visual studio 2015\Projects\Itc\Itc\obj\Debug\Itc.csproj.GenerateResource.Cache
+C:\Users\hp\documents\visual studio 2015\Projects\Itc\Itc\bin\Debug\Itc.exe
+C:\Users\hp\documents\visual studio 2015\Projects\Itc\Itc\bin\Debug\Itc.pdb
+C:\Users\hp\documents\visual studio 2015\Projects\Itc\Itc\obj\Debug\Itc.Properties.Resources.resources
+C:\Users\hp\documents\visual studio 2015\Projects\Itc\Itc\obj\Debug\Itc.exe
+C:\Users\hp\documents\visual studio 2015\Projects\Itc\Itc\obj\Debug\Itc.pdb

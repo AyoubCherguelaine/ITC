@@ -62,7 +62,7 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(45, 44);
+            this.listBox1.Location = new System.Drawing.Point(43, 62);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(326, 368);
             this.listBox1.TabIndex = 2;
@@ -134,7 +134,8 @@
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "FormationEdit";
+           // this.Name = "FormationEdit";
+            this.Name.Name = "FormationEdit";
             this.Size = new System.Drawing.Size(983, 535);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -146,7 +147,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label Name;
+       public System.Windows.Forms.Label Name;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Panel panel1;

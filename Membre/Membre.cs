@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace Itc.Membre
 {
-    class Membre
+   public class Membre : MAn
     {
 
-        public string Name;
         public Function Function;
-        public string Surname;
-        public Array Team;
+       
+        public string Team;
         public Array Order;
 
 

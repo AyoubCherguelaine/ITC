@@ -8,6 +8,7 @@ namespace Itc.Team
 {
    static class Team_memoire 
     {
-        static public Team_Membre [] Team_Name;
+         static public Team_Membre [] Team_Name;
+     //   LinkedList<string> a = new LinkedList<string>();
     }
 }
