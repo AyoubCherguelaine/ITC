@@ -93,7 +93,7 @@
   <Class Name="Itc.FormationMemoire">
     <Position X="11" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAACAAAAAAAAA=</HashCode>
       <FileName>Formation\FormationMemoire.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -105,7 +105,7 @@
     </TypeIdentifier>
   </Class>
   <Enum Name="Itc.Function">
-    <Position X="8.75" Y="1" Width="1.5" />
+    <Position X="2.25" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAABAAACAAAAAAAAAAAgAAAAAAAAEAAAAAAAAAA=</HashCode>
       <FileName>FileSetting\Function.cs</FileName>

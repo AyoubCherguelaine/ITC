@@ -93,6 +93,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "EventEditeur";
             this.Size = new System.Drawing.Size(1005, 525);
+            this.Load += new System.EventHandler(this.EventEditeur_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

@@ -67,6 +67,12 @@
       <DependentUpon>EventUI.cs</DependentUpon>
     </Compile>
     <Compile Include="Event\Event_memoire.cs" />
+    <Compile Include="Event\New_Event.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Event\New_Event.Designer.cs">
+      <DependentUpon>New_Event.cs</DependentUpon>
+    </Compile>
     <Compile Include="FileSetting\Reading.cs" />
     <Compile Include="FileSetting\Writing.cs" />
     <Compile Include="Form1.cs">
@@ -91,6 +97,12 @@
     <Compile Include="Formation\Formation_gree.cs" />
     <Compile Include="FileSetting\Function.cs" />
     <Compile Include="Body_\MAn.cs" />
+    <Compile Include="Formation\New_Formation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Formation\New_Formation.Designer.cs">
+      <DependentUpon>New_Formation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Membre\MamberGestion.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -105,6 +117,12 @@
       <DependentUpon>Membre1.cs</DependentUpon>
     </Compile>
     <Compile Include="Membre\Membre_memoire.cs" />
+    <Compile Include="Membre\New_membre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Membre\New_membre.Designer.cs">
+      <DependentUpon>New_membre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Order\Add_Order.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -129,6 +147,9 @@
     <EmbeddedResource Include="Event\EventUI.resx">
       <DependentUpon>EventUI.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Event\New_Event.resx">
+      <DependentUpon>New_Event.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -138,11 +159,17 @@
     <EmbeddedResource Include="Formation\FormationEdit.resx">
       <DependentUpon>FormationEdit.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formation\New_Formation.resx">
+      <DependentUpon>New_Formation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Membre\MamberGestion.resx">
       <DependentUpon>MamberGestion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Membre\Membre1.resx">
       <DependentUpon>Membre1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Membre\New_membre.resx">
+      <DependentUpon>New_membre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Order\Add_Order.resx">
       <DependentUpon>Add_Order.cs</DependentUpon>

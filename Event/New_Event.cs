@@ -10,24 +10,21 @@ using System.Windows.Forms;
 
 namespace Itc.Event
 {
-    public partial class EventEditeur : UserControl
+    public partial class New_Event : UserControl
     {
-        public EventEditeur()
+        public New_Event()
         {
             InitializeComponent();
-        }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
             
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
-            
+
         }
 
-        private void EventEditeur_Load(object sender, EventArgs e)
+        private void New_Event_Load(object sender, EventArgs e)
         {
 
         }
