@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Itc
 {
-    public class Order_ : Membre.Membre
+    public class Order_ 
     {
         public string ORderDsc;
         public DateTime Date;

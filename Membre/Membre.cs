@@ -12,7 +12,36 @@ namespace Itc.Membre
         public Function Function;
        
         public string Team;
-        public Array Order;
+    
+        // constractor
+        public Membre(string name, string surname , string team = "" )
+        {
+            this.name = name;
+            this.surname = surname;
+            this.Team = team;
+          //  Function = function;
+            this.Order = new List<Order_>();
+
+        }
+
+
+
+        public void addFunction(Function x)
+        {
+            this.Function = x;
+        }
+        public void addOrder(Order_ m)
+        {
+            Order.Add(m);
+            
+            
+          
+        }
+        public void addTeam(string team)
+        {
+            this.Team = team;
+        }
+        public IList<Order_> Order;
 
 
     }
