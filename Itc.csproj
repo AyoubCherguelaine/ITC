@@ -129,7 +129,7 @@
     <Compile Include="Order\Add_Order.Designer.cs">
       <DependentUpon>Add_Order.cs</DependentUpon>
     </Compile>
-    <Compile Include="Order_.cs" />
+    <Compile Include="Order\Order_.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FileSetting\Setting.cs" />

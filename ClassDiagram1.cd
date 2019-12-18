@@ -51,7 +51,7 @@
   <Class Name="Itc.Membre.Membre">
     <Position X="6" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAEAAAAAAAAAAAAAAAAAAAIAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <HashCode>ACEAAAAAAAAAEAAAAAAAAQIAAgAAAAAAEAAAAAAAAAA=</HashCode>
       <FileName>Membre\Membre.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -98,10 +98,10 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Itc.Order_">
-    <Position X="7.25" Y="5.25" Width="1.5" />
+    <Position X="8" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAIAAAEAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
-      <FileName>Order_.cs</FileName>
+      <FileName>Order\Order_.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Enum Name="Itc.Function">

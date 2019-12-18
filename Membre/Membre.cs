@@ -34,15 +34,16 @@ namespace Itc.Membre
         {
             Order.Add(m);
             
-            
-          
         }
         public void addTeam(string team)
         {
             this.Team = team;
         }
         public IList<Order_> Order;
-
+        public void delete()
+        {
+            // code en DB
+        }
 
     }
 }

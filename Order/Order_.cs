@@ -10,5 +10,11 @@ namespace Itc
         public string ORderDsc;
         public DateTime Date;
         public bool check;
+
+        public Order_(string description, DateTime date)
+        {
+            this.Date = date;
+            ORderDsc = description;
+        } 
     }
 }

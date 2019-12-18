@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Name = new System.Windows.Forms.Label();
+            this.Name_ = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -41,15 +41,15 @@
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // Name
+            // Name_
             // 
-            this.Name.AutoSize = true;
-            this.Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F);
-            this.Name.Location = new System.Drawing.Point(40, 16);
-            this.Name.Name = "Name";
-            this.Name.Size = new System.Drawing.Size(81, 29);
-            this.Name.TabIndex = 0;
-            this.Name.Text = "Name";
+            this.Name_.AutoSize = true;
+            this.Name_.Font = new System.Drawing.Font("Microsoft Sans Serif", 18.25F);
+            this.Name_.Location = new System.Drawing.Point(40, 16);
+            this.Name_.Name = "Name_";
+            this.Name_.Size = new System.Drawing.Size(81, 29);
+            this.Name_.TabIndex = 0;
+            this.Name_.Text = "Name";
             // 
             // richTextBox1
             // 
@@ -119,7 +119,7 @@
             this.panel2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.panel2.Controls.Add(this.richTextBox1);
             this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.Name);
+            this.panel2.Controls.Add(this.Name_);
             this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.Formateur);
             this.panel2.Location = new System.Drawing.Point(44, 62);
@@ -134,8 +134,7 @@
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-           // this.Name = "FormationEdit";
-            this.Name.Name = "FormationEdit";
+            this.Name = "FormationEdit";
             this.Size = new System.Drawing.Size(983, 535);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -147,7 +146,7 @@
 
         #endregion
 
-       public System.Windows.Forms.Label Name;
+       public System.Windows.Forms.Label Name_;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Panel panel1;
