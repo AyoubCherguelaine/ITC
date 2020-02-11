@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Comment CommentText="Functionner&#xD;&#xA;">
-    <Position X="0.5" Y="0.5" Height="0.291" Width="1.388" />
-  </Comment>
   <Comment CommentText="propreiter">
     <Position X="2.219" Y="0.5" Height="0.333" Width="1.7" />
   </Comment>
+  <Comment CommentText="New Mwmbere Setting&#xD;&#xA;">
+    <Position X="22.583" Y="0.521" Height="0.344" Width="1.7" />
+  </Comment>
   <Class Name="Itc.Event.Event">
-    <Position X="4" Y="3" Width="1.5" />
+    <Position X="4" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAIAAAAABAAAAAAAAAAA=</HashCode>
       <FileName>Event\Event.cs</FileName>
@@ -27,39 +27,18 @@
       <FileName>FileSetting\Writing.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Itc.Team.Team_memoire">
-    <Position X="11" Y="1" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Team\Team_memoire.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Itc.Team.Team_Membre">
-    <Position X="4" Y="1" Width="1.5" />
+    <Position X="5.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAABAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
       <FileName>Team\TeamClass.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Itc.Event.Event_memoire">
-    <Position X="11" Y="2.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
-      <FileName>Event\Event_memoire.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Itc.Membre.Membre">
-    <Position X="6" Y="3" Width="1.5" />
+    <Position X="11.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>ACEAAAAAAAAAEAAAAAAAAQIAAgAAAAAAEAAAAAAAAAA=</HashCode>
+      <HashCode>ACEAAEAAAAAAEAAAAAAAQQIAAgAAAAAAEAAAAAAAAAA=</HashCode>
       <FileName>Membre\Membre.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Itc.Membre.Membre_memoire">
-    <Position X="11" Y="3.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
-      <FileName>Membre\Membre_memoire.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Itc.Classer">
@@ -70,7 +49,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Itc.Body_.formateur">
-    <Position X="7.75" Y="3" Width="1.5" />
+    <Position X="11.75" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
       <FileName>Body_\formateur.cs</FileName>
@@ -84,28 +63,35 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Itc.MAn">
-    <Position X="7" Y="1" Width="1.5" />
+    <Position X="9.25" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Body_\MAn.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Itc.FormationMemoire">
-    <Position X="11" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAACAAAAAAAAA=</HashCode>
-      <FileName>Formation\FormationMemoire.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="Itc.Order_">
-    <Position X="8" Y="4.5" Width="1.5" />
+    <Position X="4" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAIAAAEAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
       <FileName>Order\Order_.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Enum Name="Itc.Function">
-    <Position X="2.25" Y="1" Width="1.5" />
+  <Class Name="Itc.Team_One">
+    <Position X="5.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Team_One.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Itc.Membre_add">
+    <Position X="22.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAEAEAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Membre_add.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Itc.Function" Collapsed="true">
+    <Position X="2.25" Y="1" Width="1.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAABAAACAAAAAAAAAAAgAAAAAAAAEAAAAAAAAAA=</HashCode>
       <FileName>FileSetting\Function.cs</FileName>

@@ -36,6 +36,7 @@
             this.Event_Name = new System.Windows.Forms.Label();
             this.Text_desc = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -100,11 +101,21 @@
             this.label1.TabIndex = 7;
             this.label1.Text = "Description";
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(778, 391);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(156, 23);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "Teams";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // EventUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Text_desc);
             this.Controls.Add(this.Event_Name);
@@ -129,5 +140,6 @@
         private System.Windows.Forms.Label Event_Name;
         private System.Windows.Forms.RichTextBox Text_desc;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button2;
     }
 }

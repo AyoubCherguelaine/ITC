@@ -123,6 +123,13 @@
     <Compile Include="Membre\New_membre.Designer.cs">
       <DependentUpon>New_membre.cs</DependentUpon>
     </Compile>
+    <Compile Include="Membre\Team_Membre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Membre\Team_Membre.Designer.cs">
+      <DependentUpon>Team_Membre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Membre_add.cs" />
     <Compile Include="Order\Add_Order.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -141,6 +148,7 @@
     </Compile>
     <Compile Include="Team\TeamClass.cs" />
     <Compile Include="Team\Team_memoire.cs" />
+    <Compile Include="Team_One.cs" />
     <EmbeddedResource Include="Event\EventEditeur.resx">
       <DependentUpon>EventEditeur.cs</DependentUpon>
     </EmbeddedResource>
@@ -170,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Membre\New_membre.resx">
       <DependentUpon>New_membre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Membre\Team_Membre.resx">
+      <DependentUpon>Team_Membre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Order\Add_Order.resx">
       <DependentUpon>Add_Order.cs</DependentUpon>

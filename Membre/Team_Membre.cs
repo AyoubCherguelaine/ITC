@@ -10,32 +10,16 @@ using System.Windows.Forms;
 
 namespace Itc.Membre
 {
-    public partial class New_membre : Form
+    public partial class Team_Membre : Form
     {
-        public New_membre()
+        public Team_Membre()
         {
             InitializeComponent();
         }
 
-        private void New_membre_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            //save evrything add to data base and class Membre static
-        }
-
-      
-//sql    
-       
-
         private void button2_Click(object sender, EventArgs e)
         {
-
-
-           // add to class 
+            Close();
         }
     }
 }

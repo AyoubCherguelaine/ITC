@@ -12,7 +12,7 @@ namespace Itc.Membre
         public Function Function;
        
         public string Team;
-    
+        public Team_One this_Team;
         // constractor
         public Membre(string name, string surname , string team = "" )
         {
@@ -23,9 +23,6 @@ namespace Itc.Membre
             this.Order = new List<Order_>();
 
         }
-
-
-
         public void addFunction(Function x)
         {
             this.Function = x;
@@ -43,7 +40,13 @@ namespace Itc.Membre
         public void delete()
         {
             // code en DB
-        }
 
+        }
+        public static Membre get()
+        {
+            //sql code 2
+            //generate >>>
+            return null;
+        }
     }
 }
